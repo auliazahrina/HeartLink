@@ -87,7 +87,6 @@ for (i in 1:10)
   table <- table(prediction, data_all.test$class)
   table
   
-  #testing contributor modification
   #Store metrics
   accuracy <- c(accuracy,(table[1,1]+table[2,2]+table[3,3]+table[4,4]+table[5,5])/sum(sum(table)))
   
