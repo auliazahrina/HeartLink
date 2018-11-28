@@ -53,8 +53,6 @@ fmeasure2 <- vector()
 fmeasure3 <- vector()
 auc <- vector()
 
-#testing contributor modifcation
-
 for (i in 1:10)
 {
   #Get one fold for testing
