@@ -6,8 +6,6 @@ library(randomForest)
 library(e1071)
 library(pROC)
 
-#testing contributor modifcation
-
 data <- read.csv(file="data.3_labels.csv")
 
 data$sex <- as.factor(data$sex)
